@@ -3,8 +3,8 @@ public class Animal {
 	String name;
 	int numLegs;
 	
-	public String getName() {
-		return name;
+	public String toString() {
+		return name+", "+numLegs;
 	}
 	public int getLegs() {
 		return numLegs;
